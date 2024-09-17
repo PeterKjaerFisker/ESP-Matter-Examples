@@ -1,0 +1,257 @@
+chip[DL]: BLE GAP connection established (con 1)
+chip[DL]: CHIPoBLE advertising stopped
+CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+chip[BLE]: local and remote recv window sizes = 5
+chip[BLE]: selected BTP version 4
+chip[BLE]: using BTP fragment sizes rx 244 / tx 244.
+chip[DL]: Write request/command received for CHIPoBLE TX CCCD characteristic (con 1 ) indicate = 1
+chip[DL]: CHIPoBLE subscribe received
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+chip[EM]: >>> [E:6803r S:0 M:187278278] (U) Msg RX from 0:9BDA403E0084137D [0000] --- Type 0000:20 (SecureChannel:PBKDFParamRequest)
+chip[EM]: <<< [E:6803r S:0 M:206234977] (U) Msg TX to 0:0000000000000000 [0000] [BLE] --- Type 0000:21 (SecureChannel:PBKDFParamResponse)
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[SVR]: Commissioning session establishment step started
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+chip[EM]: >>> [E:6803r S:0 M:187278279] (U) Msg RX from 0:9BDA403E0084137D [0000] --- Type 0000:22 (SecureChannel:PASE_Pake1)
+chip[EM]: <<< [E:6803r S:0 M:206234978] (U) Msg TX to 0:0000000000000000 [0000] [BLE] --- Type 0000:23 (SecureChannel:PASE_Pake2)
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+chip[EM]: >>> [E:6803r S:0 M:187278280] (U) Msg RX from 0:9BDA403E0084137D [0000] --- Type 0000:24 (SecureChannel:PASE_Pake3)
+chip[EM]: <<< [E:6803r S:0 M:206234979] (U) Msg TX to 0:0000000000000000 [0000] [BLE] --- Type 0000:40 (SecureChannel:StatusReport)
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[SC]: SecureSession[0x40816538, LSID:16116]: State change 'kEstablishing' --> 'kActive'
+chip[SVR]: Commissioning completed session establishment step
+chip[DIS]: Updating services using commissioning mode 0
+chip[DIS]: Failed to remove advertised services: 3
+chip[DIS]: Advertise commission parameter vendorID=65521 productID=32768 discriminator=3840/15 cm=0 cp=0
+chip[DIS]: Failed to advertise extended commissionable node: 3
+chip[DIS]: Failed to finalize service update: 3
+chip[SVR]: Device completed Rendezvous process
+app_main: Commissioning session started
+app_main: Commissioning window closed
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+chip[EM]: >>> [E:6804r S:16116 M:7718838] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:02 (IM:ReadRequest)
+chip[EM]: <<< [E:6804r S:16116 M:118302930] (S) Msg TX to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:05 (IM:ReportData)
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+chip[EM]: >>> [E:6805r S:16116 M:7718839] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:02 (IM:ReadRequest)
+chip[EM]: <<< [E:6805r S:16116 M:118302931] (S) Msg TX to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:05 (IM:ReportData)
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+chip[EM]: >>> [E:6806r S:16116 M:7718840] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:0a (IM:TimedRequest)
+chip[EM]: <<< [E:6806r S:16116 M:118302932] (S) Msg TX to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:01 (IM:StatusResponse)
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+chip[EM]: >>> [E:6806r S:16116 M:7718841] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:08 (IM:InvokeCommandRequest)
+esp_matter_command: Received command 0x00000000 for endpoint 0x0000's cluster 0x00000030
+chip[FS]: GeneralCommissioning: Received ArmFailSafe (120s)
+esp_matter_attribute: ********** R : Endpoint 0x0000's Cluster 0x00000030's Attribute 0x00000000 is 0 **********
+esp_matter_attribute: ********** W : Endpoint 0x0000's Cluster 0x00000030's Attribute 0x00000000 is 1 **********
+chip[EM]: <<< [E:6806r S:16116 M:118302933] (S) Msg TX to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:09 (IM:InvokeCommandResponse)
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+chip[EM]: >>> [E:6807r S:16116 M:7718842] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:02 (IM:ReadRequest)
+chip[EM]: <<< [E:6807r S:16116 M:118302934] (S) Msg TX to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:05 (IM:ReportData)
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+chip[EM]: >>> [E:6808r S:16116 M:7718843] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:02 (IM:ReadRequest)
+chip[EM]: <<< [E:6808r S:16116 M:118302935] (S) Msg TX to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:05 (IM:ReportData)
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+chip[EM]: >>> [E:6809r S:16116 M:7718844] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:02 (IM:ReadRequest)
+chip[EM]: <<< [E:6809r S:16116 M:118302936] (S) Msg TX to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:05 (IM:ReportData)
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+chip[EM]: >>> [E:6810r S:16116 M:7718845] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:02 (IM:ReadRequest)
+chip[EM]: <<< [E:6810r S:16116 M:118302937] (S) Msg TX to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:05 (IM:ReportData)
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+chip[EM]: >>> [E:6811r S:16116 M:7718846] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:02 (IM:ReadRequest)
+chip[EM]: <<< [E:6811r S:16116 M:118302938] (S) Msg TX to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:05 (IM:ReportData)
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+chip[EM]: >>> [E:6812r S:16116 M:7718847] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:08 (IM:InvokeCommandRequest)
+esp_matter_command: Received command 0x00000002 for endpoint 0x0000's cluster 0x0000003E
+chip[ZCL]: OpCreds: Certificate Chain request received for DAC
+chip[EM]: <<< [E:6812r S:16116 M:118302939] (S) Msg TX to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:09 (IM:InvokeCommandResponse)
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+chip[EM]: >>> [E:6813r S:16116 M:7718848] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:02 (IM:ReadRequest)
+chip[EM]: <<< [E:6813r S:16116 M:118302940] (S) Msg TX to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:05 (IM:ReportData)
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+chip[EM]: >>> [E:6814r S:16116 M:7718849] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:02 (IM:ReadRequest)
+chip[EM]: <<< [E:6814r S:16116 M:118302941] (S) Msg TX to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:05 (IM:ReportData)
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+chip[EM]: >>> [E:6815r S:16116 M:7718850] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:0a (IM:TimedRequest)
+chip[EM]: <<< [E:6815r S:16116 M:118302942] (S) Msg TX to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:01 (IM:StatusResponse)
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+chip[EM]: >>> [E:6815r S:16116 M:7718851] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:08 (IM:InvokeCommandRequest)
+esp_matter_command: Received command 0x00000000 for endpoint 0x0000's cluster 0x00000030
+chip[FS]: GeneralCommissioning: Received ArmFailSafe (120s)
+esp_matter_attribute: ********** R : Endpoint 0x0000's Cluster 0x00000030's Attribute 0x00000000 is 1 **********
+chip[EM]: <<< [E:6815r S:16116 M:118302943] (S) Msg TX to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:09 (IM:InvokeCommandResponse)
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+chip[EM]: >>> [E:6816r S:16116 M:7718852] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:02 (IM:ReadRequest)
+chip[EM]: <<< [E:6816r S:16116 M:118302944] (S) Msg TX to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:05 (IM:ReportData)
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+chip[EM]: >>> [E:6817r S:16116 M:7718853] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:0a (IM:TimedRequest)
+chip[EM]: <<< [E:6817r S:16116 M:118302945] (S) Msg TX to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:01 (IM:StatusResponse)
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+chip[EM]: >>> [E:6817r S:16116 M:7718854] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:08 (IM:InvokeCommandRequest)
+esp_matter_command: Received command 0x00000002 for endpoint 0x0000's cluster 0x00000030
+chip[DL]: NVS set: chip-config/reg-location = 0 (0x0)
+chip[DL]: NVS set: chip-config/country-code = "US"
+esp_matter_attribute: ********** R : Endpoint 0x0000's Cluster 0x00000030's Attribute 0x00000000 is 1 **********
+chip[EM]: <<< [E:6817r S:16116 M:118302946] (S) Msg TX to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:09 (IM:InvokeCommandResponse)
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+chip[EM]: >>> [E:6818r S:16116 M:7718855] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:08 (IM:InvokeCommandRequest)
+esp_matter_command: Received command 0x00000002 for endpoint 0x0000's cluster 0x0000003E
+chip[ZCL]: OpCreds: Certificate Chain request received for PAI
+chip[EM]: <<< [E:6818r S:16116 M:118302947] (S) Msg TX to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:09 (IM:InvokeCommandResponse)
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+chip[EM]: >>> [E:6819r S:16116 M:7718856] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:08 (IM:InvokeCommandRequest)
+esp_matter_command: Received command 0x00000000 for endpoint 0x0000's cluster 0x0000003E
+chip[ZCL]: OpCreds: Received an AttestationRequest command
+chip[ZCL]: OpCreds: AttestationRequest successful.
+chip[EM]: <<< [E:6819r S:16116 M:118302948] (S) Msg TX to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:09 (IM:InvokeCommandResponse)
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+chip[EM]: >>> [E:6820r S:16116 M:7718857] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:08 (IM:InvokeCommandRequest)
+esp_matter_command: Received command 0x00000004 for endpoint 0x0000's cluster 0x0000003E
+chip[ZCL]: OpCreds: Received a CSRRequest command
+chip[ZCL]: OpCreds: AllocatePendingOperationalKey succeeded
+chip[ZCL]: OpCreds: CSRRequest successful.
+chip[EM]: <<< [E:6820r S:16116 M:118302949] (S) Msg TX to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:09 (IM:InvokeCommandResponse)
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+chip[EM]: >>> [E:6821r S:16116 M:7718858] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:0a (IM:TimedRequest)
+chip[EM]: <<< [E:6821r S:16116 M:118302950] (S) Msg TX to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:01 (IM:StatusResponse)
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+chip[EM]: >>> [E:6821r S:16116 M:7718859] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:08 (IM:InvokeCommandRequest)
+esp_matter_command: Received command 0x00000000 for endpoint 0x0000's cluster 0x00000030
+chip[FS]: GeneralCommissioning: Received ArmFailSafe (1s)
+esp_matter_attribute: ********** R : Endpoint 0x0000's Cluster 0x00000030's Attribute 0x00000000 is 1 **********
+chip[EM]: <<< [E:6821r S:16116 M:118302951] (S) Msg TX to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:09 (IM:InvokeCommandResponse)
+NimBLE: GATT procedure initiated: indicate; 
+NimBLE: att_handle=18
+chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+chip[FS]: Fail-safe timer expired
+chip[SVR]: Failsafe timer expired
+chip[SC]: SecureSession[0x40816538, LSID:16116]: State change 'kActive' --> 'kPendingEviction'
+chip[SVR]: Commissioning failed (attempt 1): 32
+chip[BLE]: Releasing end point's BLE connection back to application.
+chip[DL]: Closing BLE GATT connection (con 1)
+NimBLE: GAP procedure initiated: terminate connection; conn_handle=1 hci_reason=19
+chip[DIS]: Updating services using commissioning mode 1
+chip[DIS]: Failed to remove advertised services: 3
+chip[DIS]: Advertise commission parameter vendorID=65521 productID=32768 discriminator=3840/15 cm=1 cp=0
+chip[DIS]: Failed to advertise commissionable node: 3
+chip[DIS]: Failed to finalize service update: 3
+chip[ZCL]: OpCreds: Got FailSafeTimerExpired
+chip[ZCL]: OpCreds: Proceeding to FailSafeCleanup on fail-safe expiry!
+chip[TS]: Pending Last Known Good Time: 2023-10-14T01:16:48
+chip[TS]: Previous Last Known Good Time: 2023-10-14T01:16:48
+chip[TS]: Reverted Last Known Good Time to previous value
+esp_matter_attribute: ********** R : Endpoint 0x0000's Cluster 0x00000030's Attribute 0x00000000 is 1 **********
+esp_matter_attribute: ********** W : Endpoint 0x0000's Cluster 0x00000030's Attribute 0x00000000 is 0 **********
+app_main: Commissioning failed, fail safe timer expired
+chip[FS]: Fail-safe cleanly disarmed
+app_main: Commissioning window opened
+chip[DL]: Write request/command received for CHIPoBLE TX CCCD characteristic (con 1 ) indicate = 0
+chip[DL]: CHIPoBLE unsubscribe received
+chip[DL]: BLE GAP connection terminated (con 1 reason 0x213)
+chip[DL]: Configuring CHIPoBLE advertising (interval 25 ms, connectable)
+NimBLE: GAP procedure initiated: advertise; 
+NimBLE: disc_mode=2
+NimBLE:  adv_channel_map=0 own_addr_type=1 adv_filter_policy=0 adv_itvl_min=40 adv_itvl_max=40
+NimBLE: 
+chip[DL]: CHIPoBLE advertising started
+esp_matter_core: BLE Disconnected
+chip[DL]: BLE GAP connection established (con 1)
+chip[DL]: CHIPoBLE advertising stopped
